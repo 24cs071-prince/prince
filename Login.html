@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+</head>
+
+<body>
+  <center>
+    <h1>🔐 Student Login</h1>
+    <hr>
+
+    <form action="index.html">
+      <table cellpadding="10">
+        <tr>
+          <td><label for="Id"><strong>Student ID:</strong></label></td>
+          <td><input type="text" id="Id" name="Id" placeholder="Enter ID" required /></td>
+        </tr>
+
+        <tr>
+          <td><label for="Password"><strong>Password:</strong></label></td>
+          <td><input type="password" id="Password" name="Password" placeholder="Enter Password" required /></td>
+        </tr>
+
+        <tr>
+          <td><label for="Year"><strong>Select Year:</strong></label></td>
+          <td>
+            <select id="Year" name="Year">
+              <option value="1st">1st</option>
+              <option value="2nd">2nd</option>
+              <option value="3rd">3rd</option>
+              <option value="4th">4th</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">
+            <button type="submit">Login</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">
+            <a href="ForgetPassword.html">🔑 Forgot Password?</a>
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <hr>
+  </center>
+</body>
+</html>
